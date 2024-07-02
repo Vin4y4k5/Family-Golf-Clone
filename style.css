@@ -184,3 +184,26 @@ video{
   font-size: 1.4vw;
 }
 
+#green-div{
+  background: linear-gradient(to left bottom, #24A737, #ACE202);
+  height: 25vh;
+  margin-top: 6vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#green-div img{
+  height: 100%;
+  width: 15%;
+  object-fit: cover;
+}
+
+#green-div h4{
+  width: 40%;
+  font-size: 1.5vw;
+  line-height: 2vw;
+  text-align: center;
+  color: #000;
+}
+
