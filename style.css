@@ -103,7 +103,7 @@ video{
 }
 
 #page2{
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   z-index: 10;
 }
@@ -150,7 +150,6 @@ video{
   to{
     transform: translateX(-100%);
   }
-  
 }
 
 #about-us{
