@@ -96,4 +96,16 @@ gsap.from("#page3 #quote-right", {
   }
 })
 
-// 1:51:40
+gsap.from("#page4 h1", {
+  y:100,
+  opacity:0,
+  duration:1,
+  scrollTrigger:{
+    trigger:"#quote-right",
+    scoller: "body",
+    markers:true,
+    start: "top 70%",
+    end: "top -80%"
+  }
+})
+
