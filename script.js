@@ -3,7 +3,7 @@ var crsr = document.querySelector("#cursor");
 var crsrblur = document.querySelector("#cursor-blur");
 
 document.addEventListener("mousemove", function(dets){
-  crsr.style.left = dets.x- 50 + "px"
+  crsr.style.left = dets.x - 50 + "px"
   crsr.style.top = dets.y - 10 + "px"
   crsrblur.style.left = dets.x- 200 + "px" 
   crsrblur.style.top = dets.y- 200 + "px" 
@@ -33,7 +33,6 @@ gsap.to("#nav", {
   scrollTrigger: {
     trigger:"nav",
     scroller:"body",
-    markers :true,
     start:"top -10%",
     end: "top -11%",
     scrub: 2
@@ -45,7 +44,6 @@ gsap.to("#main", {
   scrollTrigger: {
     trigger: "#main",
     scroller: "body",
-    markers: true,
     start: "top -30%",
     end: "top -80%",
     scrub: 1
@@ -61,7 +59,6 @@ gsap.from("#about-us img, #about-text", {
   scrollTrigger:{
     trigger:"#about-us",
     scoller: "body",
-    markers:true,
     start: "top 80%",
     end: "top -75%"
   }
@@ -76,7 +73,6 @@ gsap.from("#page3 #quote-left", {
   scrollTrigger:{
     trigger:"#quote-left",
     scoller: "body",
-    markers:true,
     start: "top 70%",
     end: "top -60%"
   }
@@ -90,7 +86,6 @@ gsap.from("#page3 #quote-right", {
   scrollTrigger:{
     trigger:"#quote-right",
     scoller: "body",
-    markers:true,
     start: "top 100%",
     end: "top -110%"
   }
@@ -103,7 +98,6 @@ gsap.from("#page4 h1", {
   scrollTrigger:{
     trigger:"#quote-right",
     scoller: "body",
-    markers:true,
     start: "top 70%",
     end: "top -80%"
   }
