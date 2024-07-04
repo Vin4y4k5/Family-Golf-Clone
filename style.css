@@ -360,3 +360,145 @@ video{
   line-height: 1.3vw;
 }
 
+@media (max-width:600px) {
+  #nav h4{
+    display: none;
+  }
+
+  #nav img{
+    position: absolute;
+    top: 15%;
+    right: 10%;
+  }
+
+  #cursor, #cursor-blur{
+    display: none;
+  }
+
+  #page1{
+    height: 70vh;
+  }
+
+  #page1 h1{
+    font-size: 15vw;
+    width: 80%;
+  }
+
+  #page1 h1::before{
+    top: -3px;
+    left: -3px;
+  }
+
+  #page1 h2{
+    font-size: 3vw;
+  }
+
+  #page1 h3{
+    font-size: 2vw;
+  }
+
+  #page2{
+    min-height: 50vh;
+  }
+  
+  #scroller h4{
+    font-size: 20vw;
+  }
+  
+  #about-us img{
+    display: none;
+  }
+  
+  #about-text{
+    gap: 2vw;
+    width: 100%;
+  }
+  
+  #about-text h3{
+    font-size: 8vw;
+  }
+  
+  #about-text p{
+    width: 80%;
+    font-size: 2vw;
+  }
+
+  #green-div h4{
+    font-size: 3vw;
+    line-height: 3vw;
+  }
+
+  #page3{
+    height: 60vh;
+  }
+  
+  #page3>p{
+    font-size: 5vw;
+    width: 80%;
+    line-height: 5vw;
+  }
+  
+  
+  #page3 #quote-right{
+    bottom: 20%;
+    right: 12%;
+  }
+  
+  #page3 #quote-left{
+    top: 20%;
+    left: 12%;
+  }
+
+  #page4{
+    height: 50vh;
+  }
+
+  #page4{
+    height: 70vh;
+    width: 100%;
+    background-color: #000000;
+    display: block;
+  }
+  
+  #page4 h1{
+    display: none;
+  }
+  
+  #page4 .elem{
+    height: 20vh;
+    width: 80%;
+    margin: 0 10vw 5vw 10vw;
+    border-radius: 4vw;
+  }
+  
+  .elem h2{
+    font-size: 8vw;
+  }
+  
+  #footer{
+    height: 30vh;
+  }
+  
+  #upper img{
+    display: none;
+  }
+
+  #upper{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  #upper h4{
+    display: none;
+  }
+  
+  #upper h5{
+    font-size: 4vw;
+    line-height: 4vw;
+    display: flex;
+    justify-content: center;
+  }
+
+}
